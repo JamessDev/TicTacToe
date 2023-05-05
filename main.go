@@ -21,7 +21,6 @@ func main() {
 	for !IsGameOver(test) {
 
 		fmt.Print("Welches Feld wollen Sie beschriften?: ")
-		fmt.Print("Das erste Feld belegt beginnt bei 0")
 		fmt.Scan(&fieldNumber)
 
 		if fieldNumber >= 9 {
